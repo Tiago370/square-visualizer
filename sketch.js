@@ -15,6 +15,10 @@ function draw() {
   }else if(positions[p] == 'U'){
     Y-=c;
     console.log("Pra cima");
+  }else if(positions[p] == 'U'){
+    X-=c;
+    console.log("Esquerda");
+
   }
   p++;
   fill(102, 0, 0);
